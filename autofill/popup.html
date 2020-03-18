@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Auto fill</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <h1>Autofill settings</h1>
+    <div id="above">
+        <section>
+            <label for="username">Username</label>
+            <input id="username" type="text" value="" name="username" autocomplete="off">
+            <label for="password">Password</label>
+            <input id="password" type="password" value="" name="password" autocomplete="off">
+            <button id="save">Save</button>
+            <span id="message"></span>
+        </section>
+    </div>
+</body>
+
+</html>
